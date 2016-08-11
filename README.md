@@ -40,9 +40,9 @@ Now each person must fix the conflict by doing an edit the file that has the con
 ... git add testFile.txt
 ....git status
 
-At this point each person (none have pushed) should have resolved the conflict. Do a git status
-......note that you have other staged files (all the tempFiles).... this is OK
-......note this is where if you didn't 'go with the flow' and commit these changes around the tempFiles you would be smashing other changes beyond the merge conflict.  Go ahead and add those files.
+At this point each person (none have pushed) should have resolved the conflict in the file and can do a git status to see <tt>Your branch and 'origin/master' have diverged</tt> and note that a commit (and push) is still needed.
+......note that you have other staged files (all the tempFiles) that you did not add .... this is OK
+......but this is where if you didn't 'go with the flow' and commit these other changes seen in the tempFiles you would be smashing other developments beyond your merge conflict.  Go ahead and add those files.
 ...git commit "I am doing a merge resolution around testFile.txt"
 ...git push
 
