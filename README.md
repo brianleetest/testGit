@@ -1,4 +1,7 @@
-People do a git clone:
+People need to create a git hub account (to push changes below).
+
+People make a directory.
+People do a git clone in that directory:
 git clone https://github.com/brianleetest/testGit.git
 
 People do a git pull.  
