@@ -43,7 +43,7 @@ Now each person must fix the conflict by doing an edit the file that has the con
 At this point each person (none have pushed) should have resolved the conflict in the file and can do a git status to see <tt>Your branch and 'origin/master' have diverged</tt> and note that a commit (and push) is still needed.
 ......note that you have other staged files (all the tempFiles) that you did not add .... this is OK
 ......but this is where if you didn't 'go with the flow' and commit these other changes seen in the tempFiles you would be smashing other developments beyond your merge conflict.  Go ahead and add those files.
-...git commit "I am doing a merge resolution around testFile.txt"
+...git commit -m "I am doing a merge resolution around testFile.txt"
 ...git push
 
 The first to push will be free and clear, each other person in group will have to go through
@@ -51,6 +51,6 @@ a second set of  merge conflicts as each new person commits their merge resoluti
 
 
 Leader Repair:  To reset, delete all the temp files.
-...rm temp* 
+...git rm temp* 
 Replace so there is just a testFile.txt  and testCopy.txt
 
