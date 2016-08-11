@@ -5,20 +5,19 @@ People do a git pull.
 People edit the file. 
   testDir/testFile.txt  
   or one of the others as they do one-on-one groups testDir/moreFiles/
-  organize into groups to avoid a lot of merges
-    (Maybe they add a new paragraph before the end).
+  as people organize into groups to avoid a lot of merges.
+
 
 ---tell no one to do any more git pulls, until told and they only edit assigned  testFile.txt ---
 
-One person, group leader, in the group commits a change to the file his/her group is editing.
+One person, group leader, in the group commitw to the file that group is editing.
 ...git add
 ...git commit -m "My message"
 ...git push
-...Group can do more edits if they like.
 
-Leader person also commits several other files in a second separate commit, pushes
-.. runs a loop
-   for i in {1..10}; do cp testCopy.txt tempFile$i.txt ; done
+
+Leader person also commits several other files in a second separate commit and pushes the files 
+...runs a loop  <tt>for i in {1..10}; do cp testCopy.txt tempFile$i.txt</tt> ; done
 ..git add temp*
 ..git commit -m "Adding temp files"
 ..git push
