@@ -13,14 +13,15 @@ People edit the file.
 
 ---tell no one to do any more git pulls, until told and they only edit assigned  testFile.txt ---
 
-One person, group leader, in the group commitw to the file that group is editing.
+One person, group leader, in the group commits to the file that group is editing.
+...git diff
 ...git add
 ...git commit -m "My message"
 ...git push
 
 
 Leader person also commits several other files in a second separate commit and pushes the files 
-...runs a loop  <tt>for i in {1..10}; do cp testCopy.txt tempFile$i.txt</tt> ; done
+...runs a loop <b>in the directory they are editing only</b>  <tt>for i in {1..10}; do cp testCopy.txt tempFile$i.txt</tt> ; done
 ..git add temp*
 ..git commit -m "Adding temp files"
 ..git push
