@@ -34,16 +34,16 @@ Now each person must fix the conflict by doing an edit the file that has the con
 .....Look for the >>>  <<<<  edit file to desired state.
 .... Save file
 ... git add testFile.txt
-....git commit "I am doing a merge resolution around testFile.txt"
-....git pull
+....git status
 
 At this point each person (none have pushed) should have resolved the conflict. Do a git status
 ......note that you have other staged files (all the tempFiles).... this is OK
-......note this is where if you didn't 'go with the flow' and commit these changes around the tempFiles you would be smashing other changes beyond the merge conflict.
-...git commit
+......note this is where if you didn't 'go with the flow' and commit these changes around the tempFiles you would be smashing other changes beyond the merge conflict.  Go ahead and add those files.
+...git commit "I am doing a merge resolution around testFile.txt"
 ...git push
 
-Each person in group will have to go through these merge conflicts as each new person commits their merge resolutions.
+The first to push will be free and clear, each other person in group will have to go through
+a second set of  merge conflicts as each new person commits their merge resolutions.
 
 
 Leader Repair:  To reset, delete all the temp files.
