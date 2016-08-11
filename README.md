@@ -28,15 +28,16 @@ Everyone now does a git pull....
 ... Do the commit as instructed.
 ..... git add
 ..... git commit -m  "I am committing my change."
-Git pull
+git pull
 
-Fix the conflict now by doing an edit the file that has the conflict, testFile.txt
+Now each person must fix the conflict by doing an edit the file that has the conflict, testFile.txt
 .....Look for the >>>  <<<<  edit file to desired state.
 .... Save file
-... Git add the file testFile.txt
-....Git commit "I am doing a merge resolution around testFile.txt"
-....Git pull
-Git status
+... git add testFile.txt
+....git commit "I am doing a merge resolution around testFile.txt"
+....git pull
+
+At this point each person (none have pushed) should have resolved the conflict. Do a git status
 ......note that you have other staged files (all the tempFiles).... this is OK
 ......note this is where if you didn't 'go with the flow' and commit these changes around the tempFiles you would be smashing other changes beyond the merge conflict.
 ...git commit
