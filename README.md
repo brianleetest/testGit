@@ -4,10 +4,10 @@ People make a directory.
 People do a git clone in that directory:
 git clone https://github.com/brianleetest/testGit.git
 
-People do a git pull.  
+People cd cd testGit/testDir do a git pull.  
 People edit the file. 
-  testDir/testFile.txt  
-  or one of the others as they do one-on-one groups testDir/moreFiles/
+  testDir/testFile.txt 
+  or one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
   as people organize into groups to avoid a lot of merges.
 
 
