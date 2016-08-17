@@ -1,5 +1,5 @@
 Here is a test
-changing LINE
+I'm adding something here.
 file to edit
 that has several
 different lines
