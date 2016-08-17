@@ -1,0 +1,17 @@
+This file exists to
+show that multiple
+commits will be
+unstagged during 
+the git merge.
+
+The idea is that 
+although you have
+a conflict in one
+file, all the 
+intermediate files
+will be in an
+'added state'
+still needing to be
+committed.
+
+for i in {1..10}; do cp testCopy.txt tempFile$i.txt ; done
