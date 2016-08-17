@@ -1,4 +1,5 @@
 People need to create a git hub account (to push changes below).
+The owner of the repository has to go to settings and add the new github accounts as collaborators. 
 
 People make a directory.
 People do a git clone in that directory:
@@ -35,7 +36,7 @@ Everyone now does a git pull....
 git pull
 
 Now each person must fix the conflict by doing an edit the file that has the conflict, testFile.txt
-.....Look for the >>>  <<<<  edit file to desired state.
+.....Look for the >>>  <<<<  edit file to desired state, it is better if you add some unique info.
 .... Save file
 ... git add testFile.txt
 ....git status
