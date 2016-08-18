@@ -13,7 +13,7 @@ Or people edit  one of the others in moreFiles as they do one-on-one groups test
   as people organize into groups to avoid a lot of merges.
 + vi testDir/moreFiles/dir3/testFile3.txt 
 
----<b>No one should do any more git pulls</b>, until told by their group leaderand they only edit assigned  testFile.txt ---
+---<b>No one should do any more git pulls</b>, until told by their group leader and they only edit assigned  testFile.txt ---
 
 <em>Only a group leader</em>, in the group commits to the file that group is editing.
 + ...git diff
