@@ -56,3 +56,51 @@ Leader Repair:  To reset, delete all the temp files.
 ...git rm temp* 
 Replace so there is just a testFile.txt  and testCopy.txt
 
+
+Summary commands:
+
++ Group Leader:
+<pre>
+mkdir gitClone
+cd gitClone
+git clone https://github.com/brianleetest/testGit.git
+cd testGit
+vi testDir/moreFiles/dir3/testFile3.txt
+git diff
+git add testDir/moreFiles/dir3/testFile3.txt
+git status
+git commit -m "Git commit by MOI message"
+git push
+cd testDir/moreFiles/dir3/
+for i in {1..10}; do cp testCopy.txt tempFile$i.txt; done 
+git add temp*
+git status
+git commit -m "Adding temp files by MOI"
+git push
+</pre>
+
++ Group Members
+<pre>
+mkdir gitClone
+cd gitClone
+git clone https://github.com/brianleetest/testGit.git
+cd testGit
+vi testDir/moreFiles/dir3/testFile3.txt
+</pre>
+<B>WAIT</B> for group Leader to finish commits and pushes.
+Once Group leader gives the go ahead do the git pull <b>and read the messages</b>.
+<pre>
+git pull
+git add testDir/moreFiles/dir3/testFile3.txt
+git status
+git commit -m  "I am committing my change by MOI."
+git pull
+vi testDir/moreFiles/dir3/testFile3.txt
+git add testDir/moreFiles/dir3/testFile3.txt
+git status
+</pre>
+<b>STOP</b> and notice here that you have many other staged files to be committed, all the <em>tempFiles</em> that have been added since the change that caused your conflict, this is <b>OK</b>.
+<pre>
+git commit -m "Doing a merge resolution around testFile.txt by MOI"
+git push
+</pre>
