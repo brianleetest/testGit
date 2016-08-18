@@ -11,6 +11,7 @@ People edit the file.
 
 Or people edit  one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
   as people organize into groups to avoid a lot of merges.
++ vi testDir/moreFiles/dir3/testFile3.txt 
 
 ---No one should do any more git pulls, until told and they only edit assigned  testFile.txt ---
 
