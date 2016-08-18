@@ -13,7 +13,7 @@ Or people edit  one of the others in moreFiles as they do one-on-one groups test
   as people organize into groups to avoid a lot of merges.
 + vi testDir/moreFiles/dir3/testFile3.txt 
 
----No one should do any more git pulls, until told and they only edit assigned  testFile.txt ---
+---<b>No one should do any more git pulls</b>, until told by their group leaderand they only edit assigned  testFile.txt ---
 
 <em>Only a group leader</em>, in the group commits to the file that group is editing.
 + ...git diff
@@ -28,7 +28,7 @@ Or people edit  one of the others in moreFiles as they do one-on-one groups test
 ..git commit -m "Adding temp files"
 ..git push
 
----Once <em>group leader</em> pushes, everyone now does a git pull---
+---Once <em>group leader</em> pushes, everyone <b>now does a git pull</b>---
 + ... Everyone should have a conflict on testFile.txt
 ... Read the message.
 ... Do the commit as instructed.
