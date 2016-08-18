@@ -2,13 +2,13 @@ People need to create a git hub account (to push changes below).
 The owner of the repository has to go to settings and add the new github accounts as collaborators. 
 
 People make a directory.
-People do a git clone in that directory:
++ People do a git clone in that directory:
 git clone https://github.com/brianleetest/testGit.git
 
 People cd cd testGit/testDir do a git pull.  
-People edit the file. 
++ People edit the file. 
   testDir/testFile.txt 
-  or one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
++  Or people edit  one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
   as people organize into groups to avoid a lot of merges.
 
 
