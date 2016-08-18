@@ -93,7 +93,7 @@ Once Group leader gives the go ahead do the git pull <b>and read the messages</b
 git pull
 git add testDir/moreFiles/dir3/testFile3.txt
 git status
-git commit -m  "I am committing my change."
+git commit -m  "I am committing my change by MOI."
 git pull
 vi testDir/moreFiles/dir3/testFile3.txt
 git add testDir/moreFiles/dir3/testFile3.txt
