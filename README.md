@@ -7,27 +7,27 @@ People do a git clone in that directory:
 
 People cd cd testGit/testDir do a git pull.  
 People edit the file. 
-+vi testDir/testFile.txt 
-  Or people edit  one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
-  as people organize into groups to avoid a lot of merges.
++ vi testDir/testFile.txt 
 
+Or people edit  one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
+  as people organize into groups to avoid a lot of merges.
 
 ---No one should do any more git pulls, until told and they only edit assigned  testFile.txt ---
 
-One person, <em>group leader person</em>, in the group commits to the file that group is editing.
+<em>Only a group leader</em>, in the group commits to the file that group is editing.
 + ...git diff
 ...git add
 ...git commit -m "My message"
 ...git push
 
 
-<em>Leader person</em> also commits several other files in a second separate commit and pushes the files 
+<em>Leader person</em> also does a second commit of several other files in a second separate commit and pushes the files 
 + ...runs a loop <b>in the directory they are editing only</b>  <tt>for i in {1..10}; do cp testCopy.txt tempFile$i.txt; done </tt>
 + ..git add temp*
 ..git commit -m "Adding temp files"
 ..git push
 
-Everyone now does a git pull....
+---Once <em>group leader</em> pushes, everyone now does a git pull....
 + ... Everyone should have a conflict on testFile.txt
 ... Read the message.
 ... Do the commit as instructed.
