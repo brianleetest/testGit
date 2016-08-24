@@ -61,8 +61,8 @@ Summary commands:
 
 + Group Leader:
 <pre>
-mkdir gitClone
-cd gitClone
+mkdir gitCloneLeader
+cd gitCloneLeader
 git clone https://github.com/brianleetest/testGit.git
 cd testGit
 vi testDir/moreFiles/dir3/testFile3.txt
