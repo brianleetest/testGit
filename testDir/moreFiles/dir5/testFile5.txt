@@ -1,5 +1,5 @@
 Here is a test
---change this line--
+CONSIDER THIS LINE CHANGED.
 file to edit
 that has several
 different lines
