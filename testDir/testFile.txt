@@ -1,11 +1,11 @@
 Here is a test
-***everyone change this line please***
+--Please change this line here--
 file to edit
 that has several
 different lines
 and people can edit
 different lines.
-sdfdsa
+
 The quick brown
 fox jumped over the
 lazy dog.
@@ -15,5 +15,4 @@ The lazy dog barked.
 The lazy dog went back
 to sleep.
 
-further down
 The end.    
