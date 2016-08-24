@@ -9,7 +9,7 @@ People cd cd testGit/testDir do a git pull.
 People edit the file. 
 + vi testDir/testFile.txt 
 
-Or people edit  one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
+Or people edit one of the others in moreFiles as they do one-on-one groups testDir/moreFiles/
   as people organize into groups to avoid a lot of merges.
 + vi testDir/moreFiles/dir3/testFile3.txt 
 
