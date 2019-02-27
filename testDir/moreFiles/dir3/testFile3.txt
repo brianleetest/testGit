@@ -1,6 +1,7 @@
 Here is a test
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Why is the dog lazy?
 =======
 iDan, the robot Dan--Please change this line here--
@@ -8,6 +9,9 @@ iDan, the robot Dan--Please change this line here--
 =======
 Why is the dog lazy?
 >>>>>>> 657836bda99a996969868035f5cc757869a34b68
+=======
+Why is the dog lazy? new changes
+>>>>>>> 6dc9f5ff8bfbb492c51edddb004e522c7f384d1b
 file to edit
 that has several
 different lines
