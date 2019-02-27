@@ -1,5 +1,5 @@
 Here is a test
---Please change this line here--
+Why is the dog lazy?--Please change this line here--
 file to edit
 that has several
 different lines
@@ -8,11 +8,11 @@ different lines.
 
 The quick brown
 fox jumped over the
-lazy dog.
+happy dog.
 
-The lazy dog barked.
+The happy dog barked.
 
-The lazy dog went back
+The happy dog went back
 to sleep.
 
 The end.    
