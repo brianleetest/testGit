@@ -1,5 +1,5 @@
 Here is a test
--- Here CHANGE is an edit Please change this line here--
+Why is the dog lazy? new changes
 file to edit
 that has several
 different lines
