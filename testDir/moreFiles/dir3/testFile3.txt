@@ -1,5 +1,5 @@
 Here is a test
-Why is the dog lazy?-- Here is an edit Please change this line here--
+Why is the dog lazy?
 file to edit
 that has several
 different lines
