@@ -1,9 +1,13 @@
 Here is a test
 <<<<<<< HEAD
+<<<<<<< HEAD
 Why is the dog lazy?
 =======
 iDan, the robot Dan--Please change this line here--
 >>>>>>> d3e89c4f00deff5f2ade030f5ccf048b0e607a3e
+=======
+Why is the dog lazy?
+>>>>>>> 657836bda99a996969868035f5cc757869a34b68
 file to edit
 that has several
 different lines
